@@ -14,7 +14,7 @@ jobs:
         subscriptionId: c00d16c7-6c1f-4c03-9be1-6934a4c49682
         resourceGroupName: vnm-aks-pf-reuse-rg
         template: html/webapp/ArmTemplates/windows-webapp-template.json
-        parameters: webAppName=vnm-arm-action hostingPlanName=dikhakha121 appInsightsLocation="Central US" sku="Standard" skucode="S1"
+        parameters: webAppName=vnm-arm-action hostingPlanName=dikhakha121 appInsightsLocation="Central US" sku="Standard" skuCode="S1"
         deploymentName: github-advanced-test
     - run: echo ${{ steps.deploy.outputs.hostName }}
 
