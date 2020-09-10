@@ -90,5 +90,11 @@
                 "Request_Source": "AzureTfsExtensionAzureProject"
             }
         }
-    ]
+    ],
+    "outputs": {
+        "hostName": {
+            "type": "string",
+            "value": "[reference(parameters('webAppName')).hostName[0]]"
+        }
+    }
 }
