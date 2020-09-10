@@ -97,7 +97,7 @@
     "outputs": {
         "hostName": {
             "type": "string",
-            "value": "[resourceId('Microsoft.Web/sites', parameters('webAppName')).hostName[0]]"
+            "value": "[resourceId('Microsoft.Web/sites', parameters('webAppName')).defaultHostName]"
         }
     }
 }
