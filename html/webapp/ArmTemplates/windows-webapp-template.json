@@ -97,7 +97,7 @@
     "outputs": {
         "name": {
             "type": "string",
-            "value": "[resourceId('Microsoft.Web/sites', parameters('webAppName')).name]"
+            "value": "[resourceId('Microsoft.Web/sites', parameters('webAppName'))]"
         }
     }
 }
