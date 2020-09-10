@@ -17,5 +17,5 @@ jobs:
         template: html/webapp/ArmTemplates/windows-webapp-template.json
         parameters: webAppName=vnm-arm-action hostingPlanName=vnm-test-1234 appInsightsLocation="Central US" sku="Standard" skuCode="S1"
         deploymentName: github-advanced-test
-    - run: echo "Hello World".${{ steps.deploy.outputs.hostName }}
+    - run: echo "Hello World".${{ steps.deploy.outputs.name }}
 
